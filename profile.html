@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Profile | Project Atlas</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 24px;
+        }
+
+        .profile-card {
+            background: white;
+            width: 100%;
+            max-width: 420px;
+            padding: 36px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 12px 35px rgba(15, 23, 42, 0.10);
+        }
+
+        .avatar {
+            width: 90px;
+            height: 90px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background: #dbeafe;
+            color: #1d4ed8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 27px;
+            margin-bottom: 8px;
+        }
+
+        .role {
+            color: #2563eb;
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+        .intro {
+            color: #64748b;
+            font-size: 15px;
+            line-height: 1.7;
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font-size: 16px;
+            margin-bottom: 14px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 26px;
+        }
+
+        .skill {
+            background: #eff6ff;
+            color: #1d4ed8;
+            padding: 8px 13px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        .portfolio-link {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .portfolio-link:hover {
+            background: #1d4ed8;
+        }
+
+        .footer {
+            margin-top: 24px;
+            color: #94a3b8;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <main class="profile-card">
+        <div class="avatar" aria-hidden="true">D</div>
+
+        <h1>Devacharan CU</h1>
+        <p class="role">B.Tech CSE (AI & ML) Student</p>
+
+        <p class="intro">
+            Aspiring Engineer passionate about artificial
+            intelligence, problem-solving, and building useful
+            technology through code.
+        </p>
+
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">C++</span>
+            <span class="skill">Git & GitHub</span>
+        </div>
+
+        <a
+            class="portfolio-link"
+            href="https://github.com/devacharan-cu"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit GitHub to explore developer projects"
+        >
+            View GitHub Profile
+        </a>
+
+        <p class="footer">Project Atlas · Developer Profile</p>
+    </main>
+</body>
+</html>
